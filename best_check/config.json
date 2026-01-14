@@ -1,0 +1,55 @@
+{
+  "test_esm_path": "C:\\Users\\WMM2288\\Desktop\\VF-pred\\fea_extraction\\2esm_test.h5",
+  "test_prot5_path": "C:\\Users\\WMM2288\\Desktop\\VF-pred\\fea_extraction\\2prot_test.h5",
+  "models": [
+
+    {
+      "type": "dpf",
+      "feature_type": "all",
+      "path": "C:\\Users\\WMM2288\\Desktop\\VF-pred\\best_check\\2vf\\1_fusion_867.pth",
+      "weight": 0.9,
+      "hidden_dim": 1024,
+      "num_layers": 6,
+      "dropout": 0.29469650436868966,
+      "rank": 16,
+      "steps": 2
+    },
+    {
+      "type": "vfiter",
+      "feature_type": "esm2",
+      "path": "C:\\Users\\WMM2288\\Desktop\\VF-pred\\best_check\\2vf\\esm2_best.pth",
+      "weight": 0.73,
+      "input_dim":1280,
+      "hidden_dim":512,
+      "num_layers":4,
+      "dropout":0.5357584107527866,
+      "rank":4,
+      "steps":2
+    },
+    {
+      "type": "vfiter",
+      "feature_type": "prot5",
+      "path": "C:\\Users\\WMM2288\\Desktop\\VF-pred\\best_check\\2vf\\prot5_best_model.pth",
+      "weight": 0.15,
+      "input_dim":1024,
+      "hidden_dim":1024,
+      "num_layers":6,
+      "dropout":0.13123101867893097,
+      "rank":2,
+      "steps":4   
+    },
+    {
+      "type": "vfiter",
+      "feature_type": "all",
+      "path": "C:\\Users\\WMM2288\\Desktop\\VF-pred\\best_check\\2vf\\esm2+prot5.pth",
+      "weight": 0.8,
+      "input_dim":2304,
+      "hidden_dim":1024,
+      "num_layers":2,
+      "dropout":0.22863191533551397,
+      "rank":4,
+      "steps":1
+    }
+  ],
+  "save_results": true
+}

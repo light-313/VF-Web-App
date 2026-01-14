@@ -1,0 +1,15 @@
+{
+    "classifier_type": "dpf",
+    "hidden_dim": 1024,
+    "num_layers": 6,
+    "dropout": 0.29469650436868966,
+    "batch_size": 64,
+    "learning_rate": 3.7633199355647974e-05,
+    "weight_decay": 4.193015700729262e-05,
+    "optimizer": "RMSprop",
+    "scheduler": "cosine",
+    "num_epochs": 30,
+    "patience": 5,
+    "rank": 16,
+    "steps": 2
+}

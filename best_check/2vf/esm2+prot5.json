@@ -1,0 +1,15 @@
+{
+    "classifier_type": "vfiter",
+    "hidden_dim": 1024,
+    "num_layers": 2,
+    "dropout": 0.22863191533551397,
+    "batch_size": 128,
+    "learning_rate": 0.00034968351405090367,
+    "weight_decay": 0.00033458203895019896,
+    "optimizer": "AdamW",
+    "scheduler": "cosine",
+    "num_epochs": 30,
+    "patience": 5,
+    "rank": 4,
+    "steps": 1
+}
