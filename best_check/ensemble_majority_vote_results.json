@@ -1,6 +1,6 @@
 {
-  "test_esm_path": "C:\\Users\\WMM2288\\Desktop\\VF-pred\\fea_extraction\\2esm_test.h5",
-  "test_prot5_path": "C:\\Users\\WMM2288\\Desktop\\VF-pred\\fea_extraction\\2prot_test.h5",
+  "test_esm_path": "fea_extraction\\2esm_test.h5",
+  "test_prot5_path": "fea_extraction\\2prot_test.h5",
   "models": [
     {
       "name": "fusion_0",
