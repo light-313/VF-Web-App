@@ -11,9 +11,7 @@ ray
 scikit_learn
 seaborn
 streamlit
-tape
 torch
 tqdm
 transformers
-umap_learn
 xgboost
